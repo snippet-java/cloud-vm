@@ -1,0 +1,172 @@
+p {
+ margin: 0px;
+font-family: "Helvetica Neue Light";
+color: white;
+}
+
+a{
+    text-decoration: none;
+    margin:0;
+    display: inline-block;
+    font-family: "Helvetica Neue Medium";
+    font-size: 10px;
+}
+
+a:focus {
+    color: #808080;
+}
+a:hover {
+    color: #808080;
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+    margin: 0;
+}
+
+
+body {
+    margin: 0px;
+    color: white;
+    transition: 0.5s;
+    padding: 0;
+}
+
+.overlay {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #0b161d;
+    overflow-x: hidden;
+    transition: 0.5s;
+    margin: 10px;
+    margin: 0px;
+    font-family: Helvetica Neue Light;
+    color: white;
+    transition: 0.5s;
+    padding: 0;    
+}
+
+.overlay-header {
+    position: relative;
+    top: 10%;
+    margin: 10px;
+}
+.overlay-content {
+    border-top: 1px solid #152B39;
+    position: relative;
+    top: 10%;
+    width: 100%;
+}
+.overlay-content-title {
+    display: block;
+    margin: 10px;
+}
+.overlay a {
+    text-decoration: none;
+    margin-top: 10px;
+    margin-left: 8px;
+    color: #e2e2e2;
+    display: block;
+    transition: 0.3s;
+    
+    font-size: 16px;
+    text-decoration: none;
+    margin:0;
+    display: inline-block;
+    font-family: "Helvetica Neue Medium";
+}
+.overlay a:hover,
+.overlay a:focus {
+    color: #808080;
+}
+.overlay .closebtn {
+    position: absolute;
+    top: 20px;
+    right: 25px;
+    font-size: 60px;
+}
+@media screen and (max-height: 450px) {
+    .overlay a {
+        font-size: 20px
+    }
+    .overlay .closebtn {
+        font-size: 40px;
+        top: 15px;
+        right: 35px;
+    }
+}
+.CodeMirror {
+    border: solid grey;
+    border-width: 0 0 0 1px;
+}
+
+.padtop50 {
+	padding-top: 50px !important;
+}
+
+.pad0 {
+	padding: 0px !important;
+}
+
+.nav-header {
+	padding-bottom: 9px;
+    margin: 10px 0 10px;
+    border-bottom: 1px solid #eee;
+}
+
+.navbar-nav li a {
+	padding-left: 0px;
+}
+
+.form-group {
+	margin-bottom: 0px !important;
+}
+
+nav {
+	overflow: hidden !important;
+}
+
+.navbar-default {
+	background-color: #152B39 !important;
+	color: white !important;
+	border-color: #152B39 !important;
+}
+.navbar-brand {
+	color: white !important;
+}
+.navbar-default .navbar-nav>li>a {
+	color: white !important;
+}
+.navbar-default .navbar-nav a:hover {
+	color: grey !important;
+}
+.navbar-default .navbar-text {
+	color: white !important;
+}
+.navbar-default .navbar-collapse {
+	border-color: #152B39 !important;
+}
+
+.top_menu{
+    color: white;
+}
+
+.top_menu a:hover,
+.top_menu a:focus {
+    color: #808080;
+}
+
+#navbar {
+	overflow: hidden !important;
+	height: 51px;
+}
+
+.navbar-text {
+	margin-top: 13px !important;
+	margin-bottom: 10px !important;
+}
