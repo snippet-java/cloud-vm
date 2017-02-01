@@ -1,7 +1,7 @@
 p {
- margin: 0px;
-font-family: "Helvetica Neue Light";
-color: white;
+    margin: 0px;
+    font-family: "Helvetica Neue Light";
+    color: white;
 }
 
 a{
@@ -25,7 +25,6 @@ table {
     margin: 0;
 }
 
-
 body {
     margin: 0px;
     color: white;
@@ -34,6 +33,7 @@ body {
 }
 
 .overlay {
+    position: absolute;
     height: 100%;
     width: 0;
     position: fixed;
@@ -45,7 +45,7 @@ body {
     transition: 0.5s;
     margin: 10px;
     margin: 0px;
-    font-family: Helvetica Neue Light;
+    font-family: 'HelveticaNeue-Light', 'Helvetica Neue Light', 'Helvetica Neue';
     color: white;
     transition: 0.5s;
     padding: 0;    
@@ -103,28 +103,6 @@ body {
 .CodeMirror {
     border: solid grey;
     border-width: 0 0 0 1px;
-}
-
-.padtop50 {
-	padding-top: 50px !important;
-}
-
-.pad0 {
-	padding: 0px !important;
-}
-
-.nav-header {
-	padding-bottom: 9px;
-    margin: 10px 0 10px;
-    border-bottom: 1px solid #eee;
-}
-
-.navbar-nav li a {
-	padding-left: 0px;
-}
-
-.form-group {
-	margin-bottom: 0px !important;
 }
 
 nav {
