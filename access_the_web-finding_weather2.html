@@ -1,0 +1,305 @@
+<html>
+    <head>
+        <link rel="stylesheet" type="text/css" href="cloudvm-css/style.css">
+        <link rel="stylesheet" type="text/css" href="cloudvm-css/style.css">
+        <link rel="stylesheet" type="text/css" href="cloudvm-css/DN-style.css">
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.3/modernizr.min.js"></script>  
+        <script src="cloudvm-js/scripts.js"></script>
+        <script src="cloudvm-js/DN-scripts.js"></script>
+     
+        <title>Digital Africa - Create and share content</title>
+    </head>
+
+    <body>
+        <div class="top_menu">
+           <table style="float:left; width:100%; border:0; background: #142a39;" cellpadding="8" cellspacing="0">
+                <tr style="margin-left:6px;">
+                    <td width="11x"></td>
+                    
+                    <td width="7%" style="valign: right;" height="50px" align="left">
+                        <span style="font-size:14px;cursor:pointer; color: white; align:left; font-family:  font-family: 'HelveticaNeue-Light', 'Helvetica Neue Light', 'Helvetica Neue';" onclick="openNav()">&#9776; Menu</span>
+                    </td>
+
+                    <td width="7%">
+                         <span style="display:inline-block; font-size:14px; cursor:pointer; color: white; align:left; font-family:  font-family: 'HelveticaNeue-Light', 'Helvetica Neue Light', 'Helvetica Neue';">
+                              <img src="cloudvm-gfx/play.jpg" alt="" valign="center" align="left"/>
+                              <a href="http://cloudlabs.wwsi.edu.pl:6080/vnc_auto.html?path=?token=6bc2d51f116bbcc02c076b8909f7e2c6947c2227&password=ujytawyd" target="iframe"
+                                 style="font-size:14px; cursor:pointer; color: white; align:left;  font-family: 'HelveticaNeue-Light', 'Helvetica Neue Light', 'Helvetica Neue';" onclick="run()">
+                                 Start</a>
+                        </span>
+                    </td>
+                    
+                    <td width="7%">
+                         <span style="display:inline-block; font-size:14px; cursor:pointer; color: white; align:left; font-family:  font-family: 'HelveticaNeue-Light', 'Helvetica Neue Light', 'Helvetica Neue';">
+                              <img src="cloudvm-gfx/round_clock_small.jpg" alt="" valign="center" align="left"/>
+                               <span id="time" style="font-size:14px;cursor:pointer; color: white; align:left; font-family:  font-family: 'HelveticaNeue-Light', 'Helvetica Neue Light', 'Helvetica Neue'; display: inline-block; margin-top: 3px;">5:00</span>
+                        </span>
+                    </td>
+                      <td width="10%">
+                           <img src="cloudvm-gfx/plus.jpg" alt="" valign="center" align="left"/>
+                           <span style="font-size:14px;cursor:pointer; color: white; align:left; font-family:  font-family: 'HelveticaNeue-Light', 'Helvetica Neue Light', 'Helvetica Neue'; display: inline-block; margin-top: 3px;">  
+                          Extend Time 
+                        </span>
+                    </td>
+                    <td width="10%">
+                         <span style="display:inline-block; font-size:14px; cursor:pointer; color: white; align:left; font-family:  font-family: 'HelveticaNeue-Light', 'Helvetica Neue Light', 'Helvetica Neue';">
+                              <img src="cloudvm-gfx/full_screen.jpg" alt="" valign="center" align="left"/>
+                              <a href="http://cloudlabs.wwsi.edu.pl:6080/vnc_auto.html?path=?token=6bc2d51f116bbcc02c076b8909f7e2c6947c2227&password=ujytawyd" target="_blank"
+                                 style="font-size:14px; cursor:pointer; color: white; align:left;  font-family: 'HelveticaNeue-Light', 'Helvetica Neue Light', 'Helvetica Neue';" >
+                                 Full Screen</a>
+                        </span>
+                    </td>
+                    <td width="72%" align="center">
+                    </td>
+
+               </tr>
+            </table>
+        </div>
+
+
+        
+        <div tabindex=0 style="width: 100%; text-align: right;">
+            <table width=95% bgcolor="white" border="0" style="margin: 0px;">
+                <tbody>
+                    <tr align="right">
+                        <td bgcolor="white"></td>
+                        <td bgcolor="white"></td>
+                        <td width="100%" bgcolor="white" align="RIGHT">
+                                <iframe name="iframe" src="cloudvm-gfx/bcg_vm_1280x760.jpg" width="1286" height="800" frameBorder="0"></iframe>                                          
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+        
+        <div id="myNav" class="overlay" style="font-family: Helvetica Neue;color:white">
+            <table style="padding:35px;"> 
+                <tr>
+                    <td style="padding-left:35px; padding-right:35px">            
+                        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+                        <BR><BR><BR>  
+                        <FONT color="white" size="3"  style="font-family: HelveticaNeueMedium, HelveticaNeue-Medium, Helvetica Neue Medium, HelveticaNeue, Helvetica Neue;">ACCESS THE WEB</FONT></BR></BR>
+                        <FONT color="white" size="5" style="font-family: HelveticaNeueMedium, HelveticaNeue-Medium, Helvetica Neue Medium, HelveticaNeue, Helvetica Neue;"><B>FINDING WEATHER</B></FONT><BR></BR>
+                    </td>
+                </tr>
+            </table>
+            
+            <table>
+            <tr>
+                <td align="left" color="white" style="padding-left:35px; padding-right:35px; font-family:  font-family: 'HelveticaNeue-Light', 'Helvetica Neue Light', 'Helvetica Neue';">
+                    <FONT color="white">
+                    IBM Weather Company provides weather forecast data, insight and stories to hundreds of millions of consumers every day through its digital products. Let's explore one of these products: weather.com
+                    </FONT>
+
+                <BR><BR>
+                    <FONT color="#00c7f3" style=" font-family: HelveticaNeueMedium, HelveticaNeue-Medium, Helvetica Neue Medium, HelveticaNeue, Helvetica Neue;">Objectives</FONT>
+                        <BR>  
+                            <a href="#finding" style="font-family: HelveticaNeueMedium, HelveticaNeue-Medium, Helvetica Neue Medium, HelveticaNeue, Helvetica Neue;">1. Getting Weather Forecast for your Neighborhoods</a><BR>
+                            <a href="#lookingr" style="display: inline-block; margin:0; font-family: HelveticaNeueMedium, HelveticaNeue-Medium, Helvetica Neue Medium, HelveticaNeue, Helvetica Neue;">2. Getting the Long Term Weather Forecast</a><BR>
+                            <a href="#tracker" style="display: inline-block; margin:0; font-family: HelveticaNeueMedium, HelveticaNeue-Medium, Helvetica Neue Medium, HelveticaNeue, Helvetica Neue;">3. Using the Allergy Tracker</a><BR>     
+                            <a href="#checking" style="display: inline-block; margin:0; font-family: HelveticaNeueMedium, HelveticaNeue-Medium, Helvetica Neue Medium, HelveticaNeue, Helvetica Neue;">4. Checking the Temperature Map</a><BR>  
+                            <a href="#driving" style="display: inline-block; margin:0; font-family: HelveticaNeueMedium, HelveticaNeue-Medium, Helvetica Neue Medium, HelveticaNeue, Helvetica Neue;">5. Driving Conditions</a><BR>  
+                            <a href="#ski" style="display: inline-block; margin:0; font-family: HelveticaNeueMedium, HelveticaNeue-Medium, Helvetica Neue Medium, HelveticaNeue, Helvetica Neue;">6. Getting the Ski Forecast for the Nearby Winter Resorts</a><BR> 
+                             <a href="#video" style="display: inline-block; margin:0; font-family: HelveticaNeueMedium, HelveticaNeue-Medium, Helvetica Neue Medium, HelveticaNeue, Helvetica Neue;">7. Informative Video</a><BR> 
+                        </BR>                       
+                </td>
+            </tr>
+                
+            <tr align="left">
+                <td style="padding-left:35px; padding-right:35px; font-family: font-family: 'HelveticaNeue-Light', 'Helvetica Neue Light', 'Helvetica Neue';">        
+                    <p id="finding"></p>
+                    <HR><BR>
+                     <FONT color="#00c7f3" style=" font-family: HelveticaNeueMedium, HelveticaNeue-Medium, Helvetica Neue Medium, HelveticaNeue, Helvetica Neue;">Exercises</FONT><BR><BR>
+                     <a href="#finding" style="display: inline-block; margin:0; font-family: HelveticaNeueMedium, HelveticaNeue-Medium, Helvetica Neue Medium, HelveticaNeue, Helvetica Neue;">1. Getting Weather Forecast for your Neighborhoods</a><BR><BR>
+                     <FONT color="white">
+                       You are going to check the weather forecast for your town or region. You will use weather.com,  a leading online weather forecast provider worldwide. <BR><BR>   
+                        <BR>
+                    
+                       STEPS<BR><BR>
+                        a)	In your browser, type www.weather.com.  The website should automatically detect your location. If not, proceed to step c).<BR>
+                        <FONT size="1"><BR></FONT>     
+                         <img src="cloudvm-screens/finding_wather/finding_weather_1-1.png" alt="" style=" max-width: 80%; max-height: 80%;"/><BR><BR><BR>
+
+                       b) You should be able to see the current weather conditions for your location. Scroll down to see the forecast.<BR>
+                        <FONT size="1"><BR></FONT> 
+                            
+                          <img src="cloudvm-screens/finding_wather/finding_weather_1-2.png" alt="" style=" max-width: 80%; max-height: 80%;"/><BR><BR><BR>
+                        c) To check the weather condition of another location, enter the name of the place in the search bar at  the top-right corner. As an example, we have chosen New York, NY, USA.<BR>
+                        <FONT size="1"><BR></FONT> 
+                            
+                          <img src="cloudvm-screens/finding_wather/finding_weather_1-3.png" alt="" style=" max-width: 80%; max-height: 80%;"/><BR><BR><BR>
+ 
+                         <p id="looking"></p>
+                         <BR><BR>
+                         
+                         <HR>
+                       
+                         <a href="#looking" style="display: inline-block; margin:0; font-family: HelveticaNeueMedium, HelveticaNeue-Medium, Helvetica Neue Medium, HelveticaNeue, Helvetica Neue;">2. Getting the Long Term Weather Forecast</a><BR><BR>
+                              
+                       Now you are going to search for a 10-day weather forecast and observe how the conditions change in time.<BR><BR><BR>
+                             
+                       STEPS<BR><BR>
+                        a) In your browser, open weather.com. Type New York, NY in the search bar at the top-right corner of the page to see the weather conditions in New York. Click the 10-days heading on the top center of the page.<BR>
+                             
+                        <FONT size="1"><BR></FONT> 
+                     <img src="cloudvm-screens/finding_wather/finding_weather_2-1.png" alt="" style=" max-width: 80%; max-height: 80%;"/><BR><BR><BR>
+                        
+                         b) Click the browser’s back button to see the current weather conditions in New York again. Click on the map and use the slider to observe the conditions changing with time.
+                        <BR>
+                        <FONT size="1"><BR></FONT> 
+                        <img src="cloudvm-screens/finding_wather/finding_weather_2-2.png" alt="" style=" max-width: 80%; max-height: 80%;"/><BR><BR><BR>
+                        
+                       c) Do the same for your location. Click the 10-days heading to see the long term forecast and open the map in order to see the changing conditions within your location.
+                       <BR><BR><BR>
+                        <p id="tracker"></p>
+                         <BR><BR>
+                
+                         <HR>
+                       
+                         <a href="#tracker" style="display: inline-block; margin:0; font-family: HelveticaNeueMedium, HelveticaNeue-Medium, Helvetica Neue Medium, HelveticaNeue, Helvetica Neue;" >3. Using the Allergy Tracker</a><BR><BR>
+                         You can now also check the conditions for people suffering from allergies within your location.
+                        <BR><BR><BR>
+
+                         STEPS<BR><BR>
+                         a) In your browser, open weather.com. The site should automatically detect your location. If not, enter the name of the place in search bar at the top-right corner of the page.<BR>
+         
+                        <FONT size="1"><BR></FONT> 
+                        <img src="cloudvm-screens/finding_wather/finding_weather_3-1.png" alt="" style=" max-width: 80%; max-height: 80%;"/><BR><BR><BR>
+                        
+                         b) Hover your mouse pointer over More Forecasts on the top-right corner of the page. Click Allergy Tracker.<BR>
+                        
+                        <FONT size="1"><BR></FONT> 
+                       <img src="cloudvm-screens/finding_wather/finding_weather_3-2.png" alt="" style=" max-width: 80%; max-height: 80%;"/><BR><BR><BR>
+                            
+                         c) Scroll down to see breathing conditions.<BR>
+                        
+                        <FONT size="1"><BR></FONT> 
+                       <img src="cloudvm-screens/finding_wather/finding_weather_3-3.png" alt="" style=" max-width: 80%; max-height: 80%;"/><BR><BR><BR>
+                         <p id="checking"></p>
+                        <BR><BR>
+                        <HR>
+                            
+                        <a href="#checking" style="display: inline-block; margin:0; font-family: HelveticaNeueMedium, HelveticaNeue-Medium, Helvetica Neue Medium, HelveticaNeue, Helvetica Neue;">4. Checking the Temperature Map </a><BR><BR>
+                              
+                       Now you are going to see the temperature ranges on a radar map in your neighborhood, as well as across the continent.<BR><BR><BR>
+                             
+                       STEPS<BR><BR>
+                        a) In your browser, open weather.com. The website should automatically detect your location. If not, enter the name of the place in search bar at the top-right corner of the page.<BR>
+                             
+                        <FONT size="1"><BR></FONT> 
+                     <img src="cloudvm-screens/finding_wather/finding_weather_4-1.png" alt="" style=" max-width: 80%; max-height: 80%;"/><BR><BR><BR>
+                        
+                         b) From the weather.com home page, click "Maps" at the top of the page. 
+                        <BR>
+                        <FONT size="1"><BR></FONT> 
+                        <img src="cloudvm-screens/finding_wather/finding_weather_4-2.png" alt="" style=" max-width: 80%; max-height: 80%;"/><BR><BR><BR>
+                        
+                       c) Click the layers icon in the bottom left corner.
+                        <BR>
+                        <FONT size="1"><BR></FONT> 
+                        <img src="cloudvm-screens/finding_wather/finding_weather_4-3.png" alt="" style=" max-width: 80%; max-height: 80%;"/><BR><BR><BR>
+                        
+                             
+                        d) Select the "Temperatures" layer by clicking the appropriate radio button and close the "LAYERS" box by clicking the "X" symbol.
+                        <BR>
+                        <FONT size="1"><BR></FONT> 
+                        <img src="cloudvm-screens/finding_wather/finding_weather_4-4.png" alt="" style=" max-width: 80%; max-height: 80%;"/><BR><BR><BR>
+                        
+                         e) You will see the local temperatures map, with different colors representing different temperatures according to the legend at the top of the page.  
+                        <BR>
+                        <FONT size="1"><BR></FONT> 
+                        <img src="cloudvm-screens/finding_wather/finding_weather_4-5.png" alt="" style=" max-width: 80%; max-height: 80%;"/><BR><BR><BR>
+                        
+                         f) Click the "−" button on the left to zoom out and see the temperatures map for the entire country or continent. 
+                        <BR>
+                        <FONT size="1"><BR></FONT> 
+                        <img src="cloudvm-screens/finding_wather/finding_weather_4-6.png" alt="" style=" max-width: 80%; max-height: 80%;"/><BR><BR><BR>
+                        <p id="driving"></p>
+                        <BR><BR>
+                        <HR>
+                            
+                         <a href="#driving" style="display: inline-block; margin:0; font-family: HelveticaNeueMedium, HelveticaNeue-Medium, Helvetica Neue Medium, HelveticaNeue, Helvetica Neue;">5. Driving Conditions </a><BR><BR>
+                              
+                       Weather.com allows you to plan your trip, taking into account the various difficult conditions you can encounter while driving. In the next steps, you are going to check the driving conditions for different regions.<BR><BR><BR>
+                             
+                       STEPS<BR><BR>
+                        a) In your browser, open weather.com. The website should automatically detect your location. If not, enter the name of the place in search bar at the top-right corner of the page.<BR>
+                             
+                        <FONT size="1"><BR></FONT> 
+                     <img src="cloudvm-screens/finding_wather/finding_weather_5-1.png" alt="" style=" max-width: 80%; max-height: 80%;"/><BR><BR><BR>
+                        
+                         b) From the weather.com home page, click "Maps" at the top of the page. 
+                        <BR>
+                        <FONT size="1"><BR></FONT> 
+                        <img src="cloudvm-screens/finding_wather/finding_weather_5-2.png" alt="" style=" max-width: 80%; max-height: 80%;"/><BR><BR><BR>
+                        
+                       c) Click the layers icon in the bottom left corner and select the "Driving Difficulty" layer by clicking the appropriate radio button.
+                        <BR>
+                        <FONT size="1"><BR></FONT> 
+                        <img src="cloudvm-screens/finding_wather/finding_weather_5-3.png" alt="" style=" max-width: 80%; max-height: 80%;"/><BR><BR><BR>
+                        
+                             
+                        d) If the sponsor message appears, you can close it by clicking the "X" symbol. Otherwise, close the "LAYERS" box by clicking the "X" symbol.
+                        <BR>
+                        <FONT size="1"><BR></FONT> 
+                       <BR>
+                        
+                         e) You will see the driving conditions map, with different colors representing various driving difficulties. To see the conditions for your planned route you can scroll the map by clicking and dragging or zoom in and out using the "+" and "-" buttons on the left.  
+                        <BR>
+                        <FONT size="1"><BR></FONT> 
+                        <img src="cloudvm-screens/finding_wather/finding_weather_5-4.png" alt="" style=" max-width: 80%; max-height: 80%;"/><BR><BR><BR>
+                         <p id="ski"></p>
+                        <BR><BR>
+                        <HR>
+                            
+                        <a href="#ski" style="display: inline-block; margin:0; font-family: HelveticaNeueMedium, HelveticaNeue-Medium, Helvetica Neue Medium, HelveticaNeue, Helvetica Neue;">6. Getting the Ski Forecast for the Nearby Winter Resorts </a><BR><BR>
+                              
+                      Thanks to weather.com, you can now check the ski forecast. It will help you plan your winter holiday or a weekend you would like to spend skiing. In the next steps you are going to get the forecast for the New York vicinity ski resorts. <BR><BR><BR>
+                             
+                       STEPS<BR><BR>
+                        a) In your browser, open weather.com. Type New York, NY in the search bar at the top-right corner of the page to see the weather conditions in New York.<BR>
+                             
+                        <FONT size="1"><BR></FONT> 
+                     <img src="cloudvm-screens/finding_wather/finding_weather_6-1.png" alt="" style=" max-width: 80%; max-height: 80%;"/><BR><BR><BR>
+                        
+                         b) Hover your mouse over "More Forecasts" in the top-right corner of the page. Click "Ski Forecast".
+                        <BR>
+                        <FONT size="1"><BR></FONT> 
+                        <img src="cloudvm-screens/finding_wather/finding_weather_6-2.png" alt="" style=" max-width: 80%; max-height: 80%;"/><BR><BR><BR>
+                        
+                       c) You will see the conditions for Campgaw Mountain by default. Scroll down to see other resorts.
+                        <BR>
+                        <FONT size="1"><BR></FONT> 
+                        <img src="cloudvm-screens/finding_wather/finding_weather_6-3.png" alt="" style=" max-width: 80%; max-height: 80%;"/><BR><BR><BR>
+                                                  
+                        d)	Click on "HUNTER MOUNTAIN" to see the basic weather info for this resort.
+                        <BR>
+                        <FONT size="1"><BR></FONT> 
+                         <img src="cloudvm-screens/finding_wather/finding_weather_6-4.png" alt="" style=" max-width: 80%; max-height: 80%;"/><BR><BR><BR>
+                           
+                         e) Click "TAKE ME THERE" to get the detailed conditions for this resort.
+                        <BR>
+                        <FONT size="1"><BR></FONT> 
+                        <img src="cloudvm-screens/finding_wather/finding_weather_6-5.png" alt="" style=" max-width: 80%; max-height: 80%;"/><BR><BR><BR>
+                        <p id="video"></p>
+                        <BR><BR>
+                        <HR>
+                          <a href="#ski" style="display: inline-block; margin:0; font-family: HelveticaNeueMedium, HelveticaNeue-Medium, Helvetica Neue Medium, HelveticaNeue, Helvetica Neue;">7. Informative Video </a><BR><BR>
+                              
+                      You are going to watch a short video about the importance of weather forecasting in everyday life, as well as in business. <BR><BR><BR>
+                             
+                       STEPS<BR><BR>
+                        a) Click here to watch "Harnessing the power of Weather: IBM and The Weather Company". See how IBM and The Weather Company help businesses leverage weather data.<BR>
+                            <FONT size="1"><BR></FONT> 
+                            <a href="https://youtu.be/2hWQtey8D5w" target="_blank"><img src="cloudvm-screens/finding_wather/finding_weather_6-6.png" alt="" style=" max-width: 80%; max-height: 80%;"/></a><BR><BR><BR>
+                        <BR><BR>
+                        <HR>
+                    </FONT>
+                </td>
+            </tr>
+                                
+        </table>
+<BR><BR>                                                   
+    </body>
+    
+</html>
